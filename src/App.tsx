@@ -1,12 +1,11 @@
-import { useState } from "react";
-import "./App.css";
+import { useState } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
-  //const meow: string = "hey";
-
+  //const meow: string = 'hey';
+  //console.log('hry');
   //const tst = 1;
-  //console.log(tst, meow);
+  //console.log(meow);
 
   return (
     <>

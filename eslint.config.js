@@ -38,6 +38,12 @@ export default tseslint.config(
       ],
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/no-inferrable-types": "warn",
+      indent: ["error", 2],
+      quotes: ["error", "single"],
+      semi: ["error", "always"],
+      "comma-dangle": ["error", "always-multiline"],
+      "no-console": "warn",
+      "eol-last": ["error", "always"],
     },
   }
 );
