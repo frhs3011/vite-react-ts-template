@@ -1,32 +1,11 @@
-import { useState } from 'react';
+import RouteProvider from './providers/RouteProvider';
+
+function Wrapper() {
+  return <RouteProvider></RouteProvider>;
+}
 
 function App() {
-  const [count, setCount] = useState(0);
-  //const meow: string = 'hey';
-  //console.log('hry');
-  //const tst = 1;
-  //console.log(meow);
-
-  return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button
-          onClick={() => {
-            setCount((count: number) => count + 1);
-          }}
-        >
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  );
+  return <Wrapper />;
 }
 
 export default App;

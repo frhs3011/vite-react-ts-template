@@ -41,7 +41,6 @@ export default tseslint.config(
       indent: ["error", 2],
       quotes: ["error", "single"],
       semi: ["error", "always"],
-      "comma-dangle": ["error", "always-multiline"],
       "no-console": "warn",
       "eol-last": ["error", "always"],
     },
