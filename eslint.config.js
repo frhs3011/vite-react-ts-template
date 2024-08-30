@@ -9,7 +9,7 @@ export default tseslint.config(
   { ignores: ["dist"] },
   {
     extends: [
-      js.configs.recommended,
+      js.configs.recommended,      
       ...tseslint.configs.recommendedTypeChecked,
       ...tseslint.configs.stylisticTypeChecked,
     ],
