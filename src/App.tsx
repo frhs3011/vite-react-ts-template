@@ -1,11 +1,12 @@
+import ChakraProvider from './providers/ChakraProvider';
 import RouteProvider from './providers/RouteProvider';
 
-function Wrapper() {
-  return <RouteProvider></RouteProvider>;
-}
-
 function App() {
-  return <Wrapper />;
+  return (
+    <ChakraProvider>
+      <RouteProvider></RouteProvider>
+    </ChakraProvider>
+  );
 }
 
 export default App;
